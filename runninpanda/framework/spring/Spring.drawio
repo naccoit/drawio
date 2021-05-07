@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T01:02:14.730Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="ZygJIGPkKI4tR1Pu3Yf4" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-07T01:37:31.476Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="GJ4bJOTCO5SWpA8IzYKc" version="14.6.6" type="github">
   <diagram id="TbQEEp9MMA1_F5JZQG8T" name="第 1 页">
     <mxGraphModel dx="946" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,6 +41,12 @@
         <mxCell id="SgbAIxtXmt1jCM66Tc68-10" value="&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;注册配置类, 成为BeanDefinition&lt;/pre&gt;&lt;pre&gt;register(componentClasses);&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="570" y="240" width="270" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="SgbAIxtXmt1jCM66Tc68-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SgbAIxtXmt1jCM66Tc68-11" target="SgbAIxtXmt1jCM66Tc68-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SgbAIxtXmt1jCM66Tc68-22" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1" source="SgbAIxtXmt1jCM66Tc68-11" target="SgbAIxtXmt1jCM66Tc68-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SgbAIxtXmt1jCM66Tc68-11" value="&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;refresh()&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FFD966;" vertex="1" parent="1">
           <mxGeometry x="1050" y="240" width="270" height="30" as="geometry" />
         </mxCell>
@@ -61,6 +67,12 @@
         </mxCell>
         <mxCell id="SgbAIxtXmt1jCM66Tc68-17" value="&lt;pre&gt;doRegisterBean(Class&amp;lt;T&amp;gt; beanClass);&lt;/pre&gt;&lt;pre&gt;将制定的bean类注册为一个bean, 并添加到registry容器中&lt;br&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="536.25" y="350" width="337.5" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="SgbAIxtXmt1jCM66Tc68-19" value="&lt;pre&gt;prepareRefresh();&lt;/pre&gt;&lt;pre&gt;做一些属性验证&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="1067.5" y="320" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SgbAIxtXmt1jCM66Tc68-21" value="&lt;pre&gt;beanFactory = obtainFreshBeanFactory();&lt;/pre&gt;&lt;pre&gt;取出刚创建的beanfactory&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="420" width="292.5" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
