@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T06:42:33.065Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="gI7po9R7JOIOqiFUrJDu" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-07T08:57:04.264Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="v3CotJf26Zxd0m5iZqLR" version="14.6.10" type="github">
   <diagram id="TbQEEp9MMA1_F5JZQG8T" name="第 1 页">
     <mxGraphModel dx="946" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,13 +89,13 @@
         <mxCell id="SgbAIxtXmt1jCM66Tc68-27" value="&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1160" y="520" width="329.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SgbAIxtXmt1jCM66Tc68-28" value="&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;// 子类对此方法进行扩展,子类实现&lt;br&gt;postProcessBeanFactory(beanFactory);&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=1;gradientDirection=south;" parent="1" vertex="1">
+        <mxCell id="SgbAIxtXmt1jCM66Tc68-28" value="&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;// 子类对此方法进行扩展,子类实现&lt;br&gt;postProcessBeanFactory(beanFactory);&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=1;gradientDirection=south;fillColor=#FFCC99;" parent="1" vertex="1">
           <mxGeometry x="1160" y="552.5" width="350" height="35" as="geometry" />
         </mxCell>
         <mxCell id="SgbAIxtXmt1jCM66Tc68-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="SgbAIxtXmt1jCM66Tc68-30" target="SgbAIxtXmt1jCM66Tc68-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SgbAIxtXmt1jCM66Tc68-30" value="&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;// 执行bean工厂的后置处理器&lt;br&gt;invokeBeanFactoryPostProcessors(beanFactory);&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;gradientDirection=south;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="SgbAIxtXmt1jCM66Tc68-30" value="&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;&lt;pre&gt;// 执行bean工厂的后置处理器&lt;br&gt;invokeBeanFactoryPostProcessors(beanFactory);&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FFCC99;gradientDirection=south;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1160" y="620" width="380" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DW9ZSwrROhzF2PE8Ei93-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SgbAIxtXmt1jCM66Tc68-33" target="DW9ZSwrROhzF2PE8Ei93-3">
