@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T08:57:04.264Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="v3CotJf26Zxd0m5iZqLR" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-07T16:22:42.302Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="x8FLzncQByFqJX5Vll1D" version="14.6.10" type="github">
   <diagram id="TbQEEp9MMA1_F5JZQG8T" name="第 1 页">
     <mxGraphModel dx="946" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,10 +69,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SgbAIxtXmt1jCM66Tc68-14" value="&lt;div&gt;第二步, 注册5个spring环境所需的BeanDefinition&lt;/div&gt;&lt;div&gt;reader = new AnnotatedBeanDefinitionReader(this);&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="75.87" y="430" width="354.13" height="40" as="geometry" />
+          <mxGeometry x="78.80000000000001" y="410" width="354.13" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SgbAIxtXmt1jCM66Tc68-15" value="&lt;div&gt;第三步, 注册默认的includeFilters扫描过滤注解&lt;/div&gt;&lt;div&gt;scanner = new ClassPathBeanDefinitionScanner(this);&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="67.93" y="540" width="370" height="40" as="geometry" />
+          <mxGeometry x="70.86000000000001" y="500" width="370" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SgbAIxtXmt1jCM66Tc68-17" value="&lt;pre&gt;doRegisterBean(Class&amp;lt;T&amp;gt; beanClass);&lt;br/&gt;将制定的bean类注册为一个bean, 并添加到registry容器中&lt;br&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="538.13" y="350" width="333.75" height="40" as="geometry" />
