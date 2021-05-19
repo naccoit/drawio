@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2021-05-10T03:10:45.662Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" version="14.6.10" etag="3ZNEZZjUdNEeC9gBlool" type="github"><diagram id="s__qKIvVNFpq-WhFYmjs">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-19T10:48:38.090Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="sI1hnZA0VqLqM76CcuRL" version="14.6.12" type="github">
+  <diagram id="s__qKIvVNFpq-WhFYmjs" name="第 1 页">
+    <mxGraphModel dx="946" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gwSDk9RNHgRwuDb5jYnP-1" value="&lt;h1&gt;购物车下单&lt;/h1&gt;&lt;div&gt;流程设计方案&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gwSDk9RNHgRwuDb5jYnP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gwSDk9RNHgRwuDb5jYnP-2" target="gwSDk9RNHgRwuDb5jYnP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gwSDk9RNHgRwuDb5jYnP-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gwSDk9RNHgRwuDb5jYnP-5" value="购买商品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
