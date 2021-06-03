@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-03T07:22:33.601Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="XpPUrlBgMEpmK-GLMuzk" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-03T07:22:57.317Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="CI1vmH-w8MM9Gzqyp6Ye" version="14.7.0" type="github">
   <diagram id="viAL2-5dLFXEBhLip2Gy" name="第 1 页">
     <mxGraphModel dx="946" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,16 +71,16 @@
         <mxCell id="Bczts5irdM7Vs1aImiYU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bczts5irdM7Vs1aImiYU-4" target="Bczts5irdM7Vs1aImiYU-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="320" y="290" />
-              <mxPoint x="190" y="290" />
-              <mxPoint x="190" y="370" />
-              <mxPoint x="350" y="370" />
+              <mxPoint x="320" y="280" />
+              <mxPoint x="190" y="280" />
+              <mxPoint x="190" y="350" />
+              <mxPoint x="350" y="350" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Bczts5irdM7Vs1aImiYU-16" value="⑦&lt;br&gt;小程序接收到易宝微信&lt;br&gt;官方参数后, 拉起微信支付" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Bczts5irdM7Vs1aImiYU-15">
           <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
-            <mxPoint x="4" y="21" as="offset" />
+            <mxPoint x="4" y="29" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
