@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T03:44:32.902Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="qd0EUyTq1osDl7eA3hDw" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-16T03:46:15.110Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="cmSMzLN-NEtROuiG9fZr" version="14.7.6" type="github">
   <diagram id="WANb2gcBHVUbbiMHorg9" name="第 1 页">
-    <mxGraphModel dx="1166" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1166" dy="1845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,6 +60,9 @@
         </mxCell>
         <mxCell id="DnrRSFtmFWLPhJW0hfXQ-18" value="等待CPU资源空闲, 重新唤醒队列内被阻塞的线程;&lt;br&gt;LockSupport.unpark(t1);" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="590" y="476.25" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DnrRSFtmFWLPhJW0hfXQ-24" value="&lt;h1&gt;AQS&lt;/h1&gt;&lt;div&gt;抽象队列同步器大致工作流程&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;不同的队列实现则影响后续线程的获取资源情况&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=0;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-120" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
