@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T03:50:59.710Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="BXYInrsi0IvELuOWOmXN" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-16T03:52:38.842Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="Qqujeunx7lY1fc4s7UCb" version="14.7.6" type="github">
   <diagram id="WANb2gcBHVUbbiMHorg9" name="第 1 页">
     <mxGraphModel dx="1166" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -44,8 +44,18 @@
         <mxCell id="DnrRSFtmFWLPhJW0hfXQ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fontColor=#1D3557;startArrow=none;labelBackgroundColor=#F1FAEE;" edge="1" parent="1" source="DnrRSFtmFWLPhJW0hfXQ-25" target="DnrRSFtmFWLPhJW0hfXQ-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="DnrRSFtmFWLPhJW0hfXQ-35" value="get()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1D3557;labelBackgroundColor=#F1FAEE;" vertex="1" connectable="0" parent="DnrRSFtmFWLPhJW0hfXQ-19">
+          <mxGeometry x="-0.1761" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DnrRSFtmFWLPhJW0hfXQ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;labelBackgroundColor=#F1FAEE;" edge="1" parent="1" source="DnrRSFtmFWLPhJW0hfXQ-11" target="DnrRSFtmFWLPhJW0hfXQ-25">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DnrRSFtmFWLPhJW0hfXQ-34" value="put(Thread)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1D3557;labelBackgroundColor=#F1FAEE;" vertex="1" connectable="0" parent="DnrRSFtmFWLPhJW0hfXQ-31">
+          <mxGeometry x="-0.264" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="DnrRSFtmFWLPhJW0hfXQ-11" value="被阻塞, 进入同步队列等待锁资源;&lt;br&gt;LockSupport.park();" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="510" y="230" width="140" height="60" as="geometry" />
