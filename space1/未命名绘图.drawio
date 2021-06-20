@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-20T04:21:54.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="mrH3MHyrVuI9pZtUZ2Pu" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-20T04:33:54.728Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="An3xWMHt-eHIkn7buG-G" version="14.8.0" type="github">
   <diagram id="9Iv9ZS9wFFGYNE7iOqvU" name="第 1 页">
     <mxGraphModel dx="706" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -86,8 +86,89 @@
         <mxCell id="Fd_4ZxpIQQPllTFsR7I6-32" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-30" target="Fd_4ZxpIQQPllTFsR7I6-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-30" value="acquiredQueue();&lt;br&gt;获取队列" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-30" target="Fd_4ZxpIQQPllTFsR7I6-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-30" value="addWaiter();&lt;br&gt;入队" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="240" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-33" target="Fd_4ZxpIQQPllTFsR7I6-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-33" value="1.创建当前Node节点" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="440" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-35" target="Fd_4ZxpIQQPllTFsR7I6-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-39" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1D3557;" vertex="1" connectable="0" parent="Fd_4ZxpIQQPllTFsR7I6-38">
+          <mxGeometry x="0.05" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-35" target="Fd_4ZxpIQQPllTFsR7I6-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-42" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1D3557;" vertex="1" connectable="0" parent="Fd_4ZxpIQQPllTFsR7I6-41">
+          <mxGeometry x="-0.15" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-63" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-35" value="获取尾节点,并判断是否为空" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="640" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-37" target="Fd_4ZxpIQQPllTFsR7I6-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-45" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1D3557;" vertex="1" connectable="0" parent="Fd_4ZxpIQQPllTFsR7I6-44">
+          <mxGeometry x="-0.175" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-46" value="失败" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-37" target="Fd_4ZxpIQQPllTFsR7I6-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-37" value="CAS 设置当前节点的前驱指针为尾结点" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="880" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-48" value="自旋" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-40" target="Fd_4ZxpIQQPllTFsR7I6-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-40" target="Fd_4ZxpIQQPllTFsR7I6-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-40" value="节点入队&lt;br&gt;enq(node)" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="880" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-43" value="返回当前node节点" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-50" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-47" target="Fd_4ZxpIQQPllTFsR7I6-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-47" target="Fd_4ZxpIQQPllTFsR7I6-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-53" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1D3557;" vertex="1" connectable="0" parent="Fd_4ZxpIQQPllTFsR7I6-52">
+          <mxGeometry x="-0.025" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-47" value="判断尾节点是否为空&lt;br&gt;(即: 队列是否为空)" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="880" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-49" value="初始化队列, 并设置头为空node节点, 头尾相等" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-51" value="设置当前节点的前置节点为尾结点, CAS操作将当前节点设置为队列尾结点, 并将原尾结点的后驱指针与当前节点相连; 完成后返回原尾结点(现前置节点);" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1040" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-54" value="入队完成后, &lt;font color=&quot;#ff0000&quot;&gt;返回当前创建的节点&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
