@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-20T04:08:02.702Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="4ECYIee_QXx5vihZqt3d" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-20T04:08:22.814Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="FBNbtG36TJ9P8vepIF1J" version="14.8.0" type="github">
   <diagram id="9Iv9ZS9wFFGYNE7iOqvU" name="第 1 页">
     <mxGraphModel dx="706" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
         <mxCell id="Fd_4ZxpIQQPllTFsR7I6-16" value="state==0" style="rhombus;whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
           <mxGeometry x="460" y="280" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-18" value="hasQueuePredecessors();" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-18" value="hasQueuePredecessors();&lt;br&gt;判断队列是否为空?" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
           <mxGeometry x="630" y="290" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fd_4ZxpIQQPllTFsR7I6-20" value="判断当前线程是否是独占线程?&lt;br&gt;(重入锁, state+1)" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;direction=east;" vertex="1" parent="1">
