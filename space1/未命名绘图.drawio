@@ -1,42 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2021-06-20T04:00:28.408Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="PqAka6Z6_xpP0hsWiJ5X" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-20T04:08:02.702Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="4ECYIee_QXx5vihZqt3d" version="14.8.0" type="github">
   <diagram id="9Iv9ZS9wFFGYNE7iOqvU" name="第 1 页">
-    <mxGraphModel dx="706" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="706" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-5" value="acquire(1);&lt;br&gt;获取锁" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-2" target="Fd_4ZxpIQQPllTFsR7I6-4">
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-5" value="acquire(1);&lt;br&gt;获取锁" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-2" target="Fd_4ZxpIQQPllTFsR7I6-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-6" value="&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fd_4ZxpIQQPllTFsR7I6-5">
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-6" value="&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#F1FAEE;fontColor=#1D3557;" vertex="1" connectable="0" parent="Fd_4ZxpIQQPllTFsR7I6-5">
           <mxGeometry x="-0.3" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-7" value="&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Fd_4ZxpIQQPllTFsR7I6-5">
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-7" value="&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#F1FAEE;fontColor=#1D3557;" vertex="1" connectable="0" parent="Fd_4ZxpIQQPllTFsR7I6-5">
           <mxGeometry x="-0.25" y="-1" relative="1" as="geometry">
             <mxPoint y="14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-2" value="&lt;pre&gt;sync.lock();&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-2" value="&lt;pre&gt;sync.lock();&lt;/pre&gt;" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="240" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-3" value="&lt;h1&gt;ReentrantLock&lt;/h1&gt;&lt;div&gt;AQS独占锁加锁过程详解&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-3" value="&lt;h1&gt;ReentrantLock&lt;/h1&gt;&lt;div&gt;AQS独占锁加锁过程详解&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="10" y="40" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-4" target="Fd_4ZxpIQQPllTFsR7I6-8">
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-9" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-4" target="Fd_4ZxpIQQPllTFsR7I6-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-4" value="tryAcquire(1);&lt;br&gt;尝试获取锁" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-4" target="Fd_4ZxpIQQPllTFsR7I6-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-4" value="tryAcquire(1);&lt;br&gt;尝试获取锁" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="240" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-8" target="Fd_4ZxpIQQPllTFsR7I6-10">
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-11" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-8" target="Fd_4ZxpIQQPllTFsR7I6-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-8" value="acquiredQueue();&lt;br&gt;获取队列" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-8" value="acquiredQueue();&lt;br&gt;获取队列" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="240" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-10" value="线程阻断" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-10" value="线程阻断" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="240" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-19" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-16" target="Fd_4ZxpIQQPllTFsR7I6-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-16" target="Fd_4ZxpIQQPllTFsR7I6-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-16" value="state==0" style="rhombus;whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="460" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-18" value="hasQueuePredecessors();" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="630" y="290" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-20" value="判断当前线程是否是独占线程?&lt;br&gt;(重入锁, state+1)" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="560" y="430" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
