@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-20T04:37:07.353Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="gZgVMpw49v0h75rQQmWt" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-20T04:56:27.070Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="WEWFgYvwcO9eqxCaEhGC" version="14.8.0" type="github">
   <diagram id="9Iv9ZS9wFFGYNE7iOqvU" name="第 1 页">
     <mxGraphModel dx="706" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -32,13 +32,21 @@
         <mxCell id="Fd_4ZxpIQQPllTFsR7I6-4" value="tryAcquire(1);&lt;br&gt;尝试获取锁" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="240" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-11" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-8" target="Fd_4ZxpIQQPllTFsR7I6-10">
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-11" value="最终返回true" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-8" target="Fd_4ZxpIQQPllTFsR7I6-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="1590" />
+              <mxPoint x="300" y="1590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-59" value="自旋" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-8" target="Fd_4ZxpIQQPllTFsR7I6-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fd_4ZxpIQQPllTFsR7I6-8" value="acquiredQueue();&lt;br&gt;获取队列" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="240" y="1434" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-10" value="线程阻断" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-10" value="阻断当期线程, &lt;br&gt;未获取到锁" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="240" y="1694" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fd_4ZxpIQQPllTFsR7I6-19" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-16" target="Fd_4ZxpIQQPllTFsR7I6-18">
@@ -169,6 +177,88 @@
         </mxCell>
         <mxCell id="Fd_4ZxpIQQPllTFsR7I6-54" value="3.2 入队完成后, &lt;font color=&quot;#ff0000&quot;&gt;返回当前创建的节点&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
           <mxGeometry x="1080" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-58" target="Fd_4ZxpIQQPllTFsR7I6-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-62" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1D3557;" vertex="1" connectable="0" parent="Fd_4ZxpIQQPllTFsR7I6-61">
+          <mxGeometry x="0.1529" y="-1" relative="1" as="geometry">
+            <mxPoint x="-13" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-58" value="获取当前节点的前直节点, 判断是否为头节点?" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1436" width="130" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-63" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-60" target="Fd_4ZxpIQQPllTFsR7I6-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="1060" />
+              <mxPoint x="140" y="1060" />
+              <mxPoint x="140" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-60" target="Fd_4ZxpIQQPllTFsR7I6-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-66" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1D3557;" vertex="1" connectable="0" parent="Fd_4ZxpIQQPllTFsR7I6-65">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-60" target="Fd_4ZxpIQQPllTFsR7I6-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-69" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1D3557;" vertex="1" connectable="0" parent="Fd_4ZxpIQQPllTFsR7I6-68">
+          <mxGeometry x="-0.075" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-60" value="再次尝试获取锁?" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1434" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-64" value="设置当前节点为头结点, 取消之前的头结点, 线程无需中断, 将占到CPU资源" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1431" width="150" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-67" target="Fd_4ZxpIQQPllTFsR7I6-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-67" value="&lt;span&gt;shouldParkAfterFailedAcquire()&lt;br&gt;&lt;/span&gt;则将阻塞当前线程" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1574" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-74" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-70" target="Fd_4ZxpIQQPllTFsR7I6-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-70" target="Fd_4ZxpIQQPllTFsR7I6-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-77" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1D3557;" vertex="1" connectable="0" parent="Fd_4ZxpIQQPllTFsR7I6-76">
+          <mxGeometry x="0.0118" y="-3" relative="1" as="geometry">
+            <mxPoint x="2" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-70" value="判断前置节点的state==-1(可被唤醒)?" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="695" y="1714" width="130" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-78" value="第二次执行到" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-73" target="Fd_4ZxpIQQPllTFsR7I6-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="Fd_4ZxpIQQPllTFsR7I6-73" target="Fd_4ZxpIQQPllTFsR7I6-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-81" value="第二次执行到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1D3557;" vertex="1" connectable="0" parent="Fd_4ZxpIQQPllTFsR7I6-80">
+          <mxGeometry x="-0.275" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-73" value="修改前置节点state状态为-1(可被唤醒)" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1833" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-75" value="直接返回true" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1707" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_4ZxpIQQPllTFsR7I6-79" value="&lt;pre&gt;parkAndCheckInterrupt();&lt;/pre&gt;&lt;pre&gt;LockSupport.park(this);&lt;/pre&gt;&lt;pre&gt;阻塞当前线程, 并中断&lt;/pre&gt;" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1973" width="200" height="77" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
